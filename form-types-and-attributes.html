@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Waarom heeft elke input een lable nodig?</legend>
+            <p>zonder label:</p>
+            <input type="text">
+            <p>met label:</p>
+            <label for="name">name:</label>
+            <input type="text" id="name">
+            <p>Gebruikers weten wat ze moeten invoeren. <br> Schermlezers kunnen het label voorlezen. <br>Door op het label te klikken, krijgt het invoerveld de focus.</p>
+        </fieldset>
+        <fieldset>
+            <legend>Wat doe je met de atrributen type, autocomplete, inputmode en enterkeyhint?</legend>
+            <label for="email">Email:</label>
+            <input type="email" autocomplete="email" inputmode="email" enterkeyhint="done" id="email">
+            <p>type: Bepaalt wat je kunt invullen, zoals tekst, e-mail of wachtwoord. <br>
+                autocomplete: Vult informatie automatisch in, zoals je naam of e-mail. <br>
+                inputmode: Bepaalt welk toetsenbord je op je telefoon ziet. <br>
+                enterkeyhint: Verandert de Enter-knop op je telefoon naar bijvoorbeeld "Zoeken", "Volgende" of "Klaar".</p>
+        </fieldset>
+        <fieldset>
+            <legend>Wat doen fieldsets en legends in een formulier?</legend>
+            <p>Een fieldset maakt een groep en een legend vertelt waar die groep over gaat. Dit maakt formulieren duidelijker en toegankelijker.</p>
+        </fieldset>
+        <fieldset>
+            <legend>Wat doen required, maxlength, min, max, step?</legend>
+            <label for="number">Number</label>
+            <input type="number" id="number" min="1" max="10" step="2" required>
+            <p>Deze attributen bepalen wat een gebruiker mag of moet invullen in een formulier.</p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
